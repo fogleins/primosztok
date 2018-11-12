@@ -32,7 +32,7 @@ namespace primosztokFinal3
                     else
                     {
                         int szam = Convert.ToInt32(szam0);
-                        Console.Write("A szám prímtényezős felbontását is szeretnéd elvégezni? (igen/nem): "); //ha nem, akkor csak a legnagyobbat írja ki
+                        Console.Write("A szám prímtényezős felbontását is szeretnéd elvégezni? (igen/nem): ");
                         string bontas = Console.ReadLine();
 
                         for (int i = 2; i <= szam; i++)
